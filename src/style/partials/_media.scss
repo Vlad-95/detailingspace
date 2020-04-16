@@ -1,0 +1,638 @@
+@media (max-width: 1200px) {
+  .container {
+    max-width: 992px;
+  }
+
+  /*INTRO*/
+  .intro {
+    background-position: center bottom;
+    &__content {
+      height: auto;
+      margin-top: 12vh;
+    }
+  }
+
+  /*header*/
+  .header {
+    &__nav {
+      ul {
+        font-size: 16px;
+        line-height: 18px;
+      }
+      a {
+        padding: 10px;
+      }
+    }
+
+    &__phone {
+      &:before {
+        left: -25px;
+      }
+      a {
+        font-size: 16px;
+        line-height: 18px;
+      }
+    }
+  }
+
+  /*ЧТО ТАКОЕ ДЕТЕЙЛИНГ*/
+  .what-is {
+    .clouds {
+      .item {
+        p {
+          font-size: 16px;
+          line-height: 19px;
+        }
+      }
+    }
+  }
+
+
+  /*О НАС*/
+  .about {
+    background-position: right 50% center;
+  }
+
+
+
+  /*ПОРТФОЛИО*/
+  .portfolio__slider {
+    .slide-content {
+      height: 500px;
+      .left {
+        flex-basis: 35%;
+      }
+      .center {
+        flex-basis: 30%;
+      }
+      .right {
+        flex-basis: 35%;
+      }
+    }
+  }
+
+  /*КАРТА*/
+  #map {
+    height: 500px;
+  }
+}
+
+
+@media (max-width: 992px){
+  .container {
+    max-width: 768px;
+  }
+
+  /*INTRO*/
+  .intro {
+    /*background-image: url("../img/intro-car-mobile.png");*/
+    padding-bottom: 300px;
+    padding-top: 85.66px;
+    background-position: center bottom;
+    background-size: cover;
+
+    &__container {
+      min-height: auto;
+    }
+  }
+
+  .header-mobile {
+    display: flex;
+  }
+
+  /*header*/
+  .header {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    &__img {
+      max-width: 50px;
+    }
+  }
+
+
+  /*ПРЕИМУЩЕСТВА*/
+  .advantages {
+    padding: 75px 0;
+    &__container {
+      margin-top: 60px;
+    }
+
+    &__item {
+      padding: 0;
+    }
+  }
+
+
+  /*ЧТО ТАКОЕ ДЕТЕЙЛИНГ*/
+  .what-is {
+    padding: 75px 0;
+
+    &__container {
+      margin: 60px auto 0;
+      padding-top: 75px;
+    }
+
+    .clouds {
+      .item {
+        padding: 5px;
+        p {
+          font-size: 12px;
+          line-height: 16px;
+          text-align: center;
+        }
+
+        &.one {
+          &:after {
+            left: calc(50% + 113px);
+          }
+        }
+        &.two {
+          &:before {
+            height: 100%;
+          }
+          &:after {
+            top: calc(100% + 42px);
+          }
+        }
+        &.five {
+          &:before {
+            left: calc(50% + 30px);
+          }
+          &:after {
+            left: calc(50% + 38px);
+          }
+          p {
+
+          }
+        }
+        &.seven {
+          &:before {
+            height: 100%;
+          }
+          &:after {
+            bottom: 200%;
+          }
+        }
+        &.eight {
+          &:before {
+            height: 100%;
+          }
+          &:after {
+            bottom: 200%;
+          }
+        }
+        &.nine {
+          &:before {
+            height: 100%;
+          }
+          &:after {
+            bottom: 200%;
+          }
+        }
+      }
+    }
+  }
+
+  /*О НАС*/
+  .about {
+    background-position: right 60% center;
+  }
+
+  /*ЦЕНЫ*/
+  .prices {
+    padding: 75px 0;
+  }
+
+  .swipe-icon {
+    display: block;
+    margin-bottom: 67px;
+  }
+
+  .prices-table {
+    width: 962px;
+
+  }
+
+  .no-scroll__container {
+    position: relative;
+    &:after {
+      position: absolute;
+      content: '';
+      background-color: $dark;
+      width: 100%;
+      height: 17px;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  .scroll__container {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 17px;
+  }
+
+  /*ПОРТФОЛИО*/
+  .portfolio__slider {
+    .slide-content {
+      height: 500px;
+      .left {
+        flex-basis: 32%;
+      }
+      .center {
+        flex-basis: 36%;
+      }
+      .right {
+        flex-basis: 32%;
+      }
+    }
+  }
+
+
+  /*КАРТА*/
+  #map {
+    height: 450px;
+  }
+
+
+  /*ФУТЕР*/
+  .footer {
+    padding: 75px 0 0;
+    &__container {
+      max-width: 970px;
+      margin: 0 auto;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+
+    &__menu {
+      padding: 0 15px 0 0;
+    }
+
+    &__logo {
+      max-width: 200px;
+    }
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 576px;
+  }
+
+  .block-title {
+    font-size: 32px;
+    line-height: 37px;
+  }
+
+  .block-subtitle {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .title {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  /*ЧТО ТАКОЕ ДЕТЕЙЛИНГ*/
+  .what-is {
+    &__container {
+      margin: 40px auto 0;
+      padding-top: 0;
+    }
+
+	  .clouds-slider {
+		  display: block;
+		  margin: 0 -15px;
+	  }
+
+    .clouds {
+      display: none;
+    }
+
+    .text {
+      margin-top: 35px;
+    }
+  }
+
+
+  /*О НАС*/
+  .about {
+    padding: 75px 0;
+    background-image: none;
+
+	  .block-title {
+		  text-align: center;
+	  }
+    &__container {
+      .bold {
+        margin-top: 40px;
+      }
+      .yellow-text {
+        margin-top: 50px;
+      }
+    }
+  }
+
+
+  /*ЦЕНЫ*/
+  .prices {
+    padding: 75px 0;
+  }
+
+  .prices-table {
+    width: 768px;
+    thead {
+      font-size: 20px;
+      line-height: 23px;
+    }
+
+    .item {
+      .item-name {
+        font-size: 17px;
+        line-height: 20px;
+      }
+      .item-content {
+        font-size: 14px;
+        line-height: 20px;
+
+        .yellow {
+          font-size: 17px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  .table-info {
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+
+  /*ПОРТФОЛИО*/
+  .portfolio {
+    &__container {
+      margin-top: 60px;
+    }
+  }
+  .portfolio__slider {
+    .slide-content {
+      height: 592px;
+      .left {
+        display: none;
+      }
+      .center {
+        flex-basis: 100%;
+      }
+      .right {
+        display: none;
+      }
+    }
+  }
+
+  /*ЗВОНОК*/
+  .feedback {
+    padding: 75px 0;
+    &__container {
+      max-width: 800px;
+      margin: 0 auto;
+      border: 1px solid #454545;
+      padding: 43px 15px;
+    }
+
+    &__title {
+      font-size: 26px;
+      line-height: 30px;
+      margin-bottom: 12px;
+    }
+    &__subtitle {
+      font-size: 16px;
+      line-height: 19px;
+    }
+    &__row {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+    }
+  }
+
+  /*КАРТА*/
+  #map {
+    height: 400px;
+  }
+
+  /*ФУТЕР*/
+  .footer {
+    &__menu {
+      display: none;
+    }
+
+    &__logo {
+      max-width: 200px;
+      transform: translateY(-35px);
+    }
+  }
+
+}
+
+@media (max-width: 576px) {
+
+  /*INTRO*/
+  .intro {
+    background-image: url("../img/intro-bg-mobile.jpg");
+    padding-bottom: 100px;
+    padding-top: 63.08px;
+    background-position: center top;
+    background-size: cover;
+    &__container {
+      min-height: auto;
+    }
+  }
+
+  /*МЕНЮ В МОБИЛКЕ*/
+  .mobile-menu {
+    top: 84.38px;
+    height: calc(100vh - 84.38px);
+  }
+
+
+  .logo {
+    display: flex;
+    align-items: center;
+
+    /*&__img {
+      max-width: 66px;
+    }*/
+  }
+
+  .title {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  .special-offer {
+    &__name {
+      font-size: 16px;
+      line-height: 19px;
+    }
+    &__text {
+      font-size: 20px;
+      line-height: 26px;
+    }
+  }
+
+  .feedback__intro {
+    margin-top: 3vh;
+    &__form {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .input-block {
+      width: 200px;
+    }
+
+    .input {
+      width: 100%;
+      font-size: 15px;
+      padding: 0 14px 0 10px;
+      height: 48px;
+    }
+
+    .submit-block {
+      width: 200px;
+      flex-basis: 100%;
+
+      margin-top: 10px;
+    }
+
+    .submit {
+      width: 200px;
+      font-size: 15px;
+      padding: 0 10px;
+    }
+
+  }
+
+
+  /*ПРЕИМУЩЕСТВА*/
+  .advantages {
+    padding: 75px 0;
+    &__container {
+      margin-top: 60px;
+    }
+
+    &__item {
+      flex-basis: 100%;
+      padding: 0;
+      margin-bottom: 66px;
+      &:nth-last-of-type(1) {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  /*О НАС*/
+  .about {
+    &__container {
+      .yellow-text {
+        transform: skewX(-12deg);
+        p {
+          transform: skewX(12deg);
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  /*ЦЕНЫ*/
+  .prices {
+    padding: 75px 0;
+
+    &__container {
+      margin: 62px auto 0;
+    }
+  }
+
+  .prices-table {
+    width: 640px;
+    thead {
+      font-size: 20px;
+      line-height: 23px;
+    }
+
+    .item {
+      .item-name {
+        font-size: 16px;
+        line-height: 20px;
+      }
+      .item-content {
+        font-size: 14px;
+        line-height: 20px;
+
+        .yellow {
+          font-size: 16px;
+          line-height: 20px;
+        }
+      }
+    }
+  }
+
+  .table-info {
+    padding: 0;
+    font-size: 14px;
+    line-height: 28px;
+  }
+
+  /*ПОРТФОЛИО*/
+  .portfolio__slider {
+    .slide-content {
+      height: 500px;
+    }
+  }
+
+  /*ЗВОНОК*/
+  .feedback {
+    &__container {
+
+      margin: 0 -15px;
+      padding: 43px 15px;
+    }
+
+    .input {
+      font-size: 15px;
+      padding: 0 14px 0 10px;
+		width: 100%;
+    }
+    .submit {
+      font-size: 15px;
+      padding: 0 10px;
+		width: 100%;
+    }
+  }
+
+  /*ФУТЕР*/
+  .footer {
+    padding: 46px 0 66px;
+    &__menu {
+      display: none;
+    }
+
+    &__logo {
+      display: none;
+    }
+  }
+}
+
+
+
